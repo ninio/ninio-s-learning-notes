@@ -20,57 +20,84 @@ $white: #fff;
 
 // Helper Classes
 .full-width-image-container
-  width: 100vw
-  height: 400px
-  position: relative
-  left: 50%
-  right: 50%
-  margin: 5em -50vw
-  background-size: cover
-  background-position: bottom
-  display: flex
-  justify-content: center
-  align-items: center
+	width: 100vw
+	height: 400px
+	position: relative
+	left: 50%
+	right: 50%
+	margin: 5em -50vw
+	background-size: cover
+	background-position: bottom
+	display: flex
+	justify-content: center
+	align-items: center
 
 .margin-top-0
-  margin-top: 0 !important
+	margin-top: 0 !important
 
 @import "~bulma"
 
+
+// Header
+body
+	min-height: 100vh;
+
 body,
 .navbar.is-transparent
-  background: $monokai_black
-  color: $white
+	background: $monokai_black
+	color: $white
 
 .navbar.is-transparent
-  border-bottom: 1px solid $monokai_pink
+	border-bottom: 1px solid $monokai_pink
 
 .navbar-brand a
-  +touch
-    width: 100%
+	+touch
+		width: 100%
 
 
 .site-logo
-  img
-    float: left
-    max-height: 3rem
-    width: 3em
-    // margin-top: 0.7em
+	img
+		float: left
+		max-height: 3rem
+		width: 3em
+		// margin-top: 0.7em
 
-  figcaption
-    float: left
-    margin-left: 0.5em
-    max-width: 8em
-    border-right: 1px solid #FD971F
-    color: $monokai_orange
+	figcaption
+		float: left
+		margin-left: 0.5em
+		max-width: 8em
+		border-right: 1px solid #FD971F
+		color: $monokai_orange
 
 .navbar-item, .navbar-link
-  color: $monokai_yellow
+	color: $monokai_yellow
 
 a.navbar-item:hover,
 a.navbar-link:hover
-    color: $monokai_pink
+		color: $monokai_pink
 
+// Content Typography and styling
 .content h1, .content h2, .content h3, .content h4, .content h5, .content h6,
 .title
-  color: $monokai_green
+	color: $monokai_green
+
+.content blockquote
+	color: $monokai_black
+
+.has-text-primary
+	color: $monokai_yellow !important
+
+.button
+	background-color: transparent
+	color: $monokai_purple
+	border-radius: 0
+	border: 1px solid $monokai_pink
+	&:hover
+		color: $monokai_pink
+		border: 1px solid $monokai_purple
+
+.featured-image
+	max-height: 150px;
+	float: left;
+	margin: 0.4em 1em 0 0;
+
