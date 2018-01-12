@@ -1,19 +1,30 @@
 ---
 templateKey: 'about-page'
-path: /about
-title: About our values
+path: /hey
+title: Hey,
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+I'm Nikolay Ninarski (Ninio):
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+* A guy playing around with JS/HTML5/ES6
+* Team lead of the Front-End team @ Up2 Technology *//Dutch/Bulgarian online web agency*
+* CTO of Maplese *//an IoT tool for device connectivity and visualization*
+* I was one of the 3 founders of Shtrak.eu *//Bulgarian online web agency*
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+***
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+I've made this blog to collect all my notes and remarks on the stuff I'm learning.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Consider it as my list of _Eureka_ moments.
+
+***
+
+Some of the topics I'm actively learning and trying out are:
+* ES6/JS
+* ReactJS
+* IoT
+* RaspberryPi, Arduino and sensors
+* Machine Learning and Deep Learning
+* Node.js, npm, yarn
+* CI and CD using the MS tools
+
+
