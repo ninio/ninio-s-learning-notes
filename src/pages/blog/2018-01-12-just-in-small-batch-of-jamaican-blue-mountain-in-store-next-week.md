@@ -3,7 +3,7 @@ templateKey: 'blog-post'
 path: /hello-again-bird
 title: 'Hello Again, Bird'
 date: 2018-01-12T11:04:10.000Z
-featuredImage: '/img/well-hello-bird.jpg'
+image: '/img/well-hello-bird.jpg'
 description: >-
   I haven't blogged for more than a couple of years, but felt like I don't have
   a spot to save my finding and notes on the things I learn. So here it is.

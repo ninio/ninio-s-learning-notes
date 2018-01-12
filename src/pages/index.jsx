@@ -32,11 +32,12 @@ export default class IndexPage extends React.Component {
 					</div>
 					{posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
 
-						let featuredImageUrl = post.frontmatter.featuredImage;
-						let featuredImage
 
-						if( featuredImageUrl ) {
-							featuredImage = (<img className="featured-image" src={ featuredImageUrl } alt={post.frontmatter.title} />)
+						let image = post.frontmatter.image;
+						let featuredImageComponent;
+
+						if( image ) {
+							featuredImageComponent = (<img className="featured-image" src={ image } alt={post.frontmatter.title} />)
 						}
 
 						return (
@@ -48,7 +49,7 @@ export default class IndexPage extends React.Component {
 									<span> &bull; </span>
 									<small>{post.frontmatter.date}</small>
 								</p>
-								{ featuredImage }
+								{ featuredImageComponent }
 								<p>
 									<span dangerouslySetInnerHTML={{ __html: post.excerpt }} ></span>
 									<br />
@@ -56,7 +57,7 @@ export default class IndexPage extends React.Component {
 									<Link className="button is-small is-pulled-right" to={post.frontmatter.path}>
 										Keep Reading →
 									</Link>
-									<div className="is-clearfix"></div>
+									<span className="is-clearfix"></span>
 								</p>
 							</div>
 						);
@@ -76,8 +77,8 @@ export const pageQuery = graphql`
 					id
 					frontmatter {
 						title
+						image
 						templateKey
-						featuredImage
 						date(formatString: "MMMM DD, YYYY")
 						path
 					}
