@@ -2,6 +2,7 @@
 templateKey: 'blog-post'
 path: /hello-again-bird
 title: 'Hello Again, Bird'
+draft: false
 date: 2018-01-12T11:04:10.000Z
 image: '/img/well-hello-bird.jpg'
 description: >-

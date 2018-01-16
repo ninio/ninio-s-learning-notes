@@ -33,11 +33,16 @@ export default class IndexPage extends React.Component {
 					{posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
 
 
-						let image = post.frontmatter.image;
+						const image = post.frontmatter.image;
+						const draft = post.frontmatter.draft;
 						let featuredImageComponent;
 
 						if( image ) {
 							featuredImageComponent = (<img className="featured-image" src={ image } alt={post.frontmatter.title} />)
+						}
+
+						if( draft ) {
+							return;
 						}
 
 						return (
@@ -51,7 +56,7 @@ export default class IndexPage extends React.Component {
 								</p>
 								{ featuredImageComponent }
 								<p>
-									<span dangerouslySetInnerHTML={{ __html: post.excerpt }} ></span>
+									<span dangerouslySetInnerHTML={{ __html: post.frontmatter.description? post.frontmatter.description : post.excerpt }} ></span>
 									<br />
 									<br />
 									<Link className="button is-small is-pulled-right" to={post.frontmatter.path}>
@@ -78,9 +83,11 @@ export const pageQuery = graphql`
 					frontmatter {
 						title
 						image
+						description
 						templateKey
 						date(formatString: "MMMM DD, YYYY")
 						path
+						draft
 					}
 				}
 			}
