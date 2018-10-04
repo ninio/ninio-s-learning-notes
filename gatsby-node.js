@@ -18,47 +18,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               draft
               title
               image
-              heading
               description
-              intro {
-                blurbs {
-                  image
-                  text
-                }
-                heading
-                description
-              }
-              main {
-                heading
-                description
-                image1 {
-                  alt
-                  image
-                }
-                image2 {
-                  alt
-                  image
-                }
-                image3 {
-                  alt
-                  image
-                }
-              }
-              testimonials {
-                author
-                quote
-              }
-              full_image
-              pricing {
-                heading
-                description
-                plans {
-                  description
-                  items
-                  plan
-                  price
-                }
-              }
             }
           }
         }
