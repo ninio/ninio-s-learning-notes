@@ -4,6 +4,8 @@ path: /react-for-wp-devs
 title: React for WordPress devs
 date: 2018-06-22T13:57:57.920Z
 description: Some materials to help existing WordPress developers to start using ReactJS
+image: /img/chemex.jpg
+draft: true
 ---
 Following the news around WordPress - you can hear more and more Gutenberg, JavaScript and React.
 
