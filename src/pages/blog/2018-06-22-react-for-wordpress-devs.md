@@ -11,21 +11,13 @@ Following the news around WordPress - you can hear more and more Gutenberg, Java
 
 Here you can find links and articles to help you start with ReactJS.
 
-
-
 1. //TODO: Environment Setup.
 2. //TODO: Intro to react. Keywords: Components, props, state
 3. //TODO: Architecture of React applications. Keywords: redux, flux. store. reducer
 4. //TODO: Common advises on how to structure your React Application
 5. //TODO: Using WP Rest API from React Application
 6. //TODO: Creating a Gutenberg Block
-7. //TODO: 
-
-
-
-
-
-
+7. //TODO: Else?
 
 \===
 
