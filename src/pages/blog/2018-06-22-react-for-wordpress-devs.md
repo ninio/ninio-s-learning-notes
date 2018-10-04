@@ -4,12 +4,12 @@ path: /react-for-wp-devs
 title: React for WordPress devs
 date: 2018-06-22T13:57:57.920Z
 description: Some materials to help existing WordPress developers to start using ReactJS
+image: /img/chemex.jpg
+draft: true
 ---
 Following the news around WordPress - you can hear more and more Gutenberg, JavaScript and React.
 
 Here you can find links and articles to help you start with ReactJS.
-
-
 
 1. //TODO: Environment Setup.
 2. //TODO: Intro to react. Keywords: Components, props, state
@@ -17,13 +17,7 @@ Here you can find links and articles to help you start with ReactJS.
 4. //TODO: Common advises on how to structure your React Application
 5. //TODO: Using WP Rest API from React Application
 6. //TODO: Creating a Gutenberg Block
-7. //TODO: 
-
-
-
-
-
-
+7. //TODO: Else?
 
 \===
 
