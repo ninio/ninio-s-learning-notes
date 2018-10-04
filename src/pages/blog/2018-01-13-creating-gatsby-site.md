@@ -10,8 +10,8 @@ description: >-
 
 ![Hello again, Bird](/img/well-hello-bird.jpg)
 
-- Begginers note.
-- Started very opputunistic, but broke stuff.
+- Beginners note.
+- Started very opportunistic, but broke stuff.
 - Some messages are not explanatory
 - GraphQL is causing the issues
 - You have to touch carefully.
