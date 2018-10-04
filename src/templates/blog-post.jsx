@@ -1,5 +1,5 @@
 import React from 'react';
-import Content, { HTMLContent } from '../components/Content';
+import Content, { HTMLContent } from '../components/Content.jsx';
 import Helmet from 'react-helmet';
 
 export const BlogPostTemplate = ({ content, contentComponent, description, title, helmet, draft }) => {
