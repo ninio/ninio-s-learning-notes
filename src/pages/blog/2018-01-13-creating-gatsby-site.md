@@ -2,6 +2,7 @@
 templateKey: 'blog-post'
 path: /creating-blog-with-netlify-and-gatsby
 title: 'Notes on creating a gatsbyjs blog with netlify'
+tags: [ 'gatsbyjs', 'netlify' ]
 date: 2028-01-12T11:04:10.000Z
 draft: true
 description: >-

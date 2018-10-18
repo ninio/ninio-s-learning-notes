@@ -2,6 +2,7 @@
 templateKey: blog-post
 path: /react-for-wp-devs
 title: React for WordPress devs
+tags: [ 'reactjs', 'WordPress', 'development' ]
 date: 2018-06-22T13:57:57.920Z
 description: Some materials to help existing WordPress developers to start using ReactJS
 image: /img/chemex.jpg
@@ -23,6 +24,6 @@ Here you can find links and articles to help you start with ReactJS.
 
 Some background about me:
 
-Some time ago, I used to do WordPress development. This was the time that WordPress have just started having Custom Post Types and started to move from a Blog platform towards a full-blown CMS. 
+Some time ago, I used to do WordPress development. This was the time that WordPress have just started having Custom Post Types and started to move from a Blog platform towards a full-blown CMS.
 
 For some years I did only WordPress development but at a point (5 years ago) I've moved to the pure JavaScript part to construct headless applications. During this time I have been writing a lot of JavaScript. Eventually 2 years ago we've decided to use ReactJS as a main UI tool in our team.

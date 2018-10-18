@@ -5,7 +5,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
   return graphql(`
     {
-      allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 1000) {
+      allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 2000) {
         edges {
           node {
             excerpt(pruneLength: 400)
@@ -17,6 +17,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               date
               draft
               title
+              tags
               image
               description
             }
